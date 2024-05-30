@@ -1,0 +1,23 @@
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #f04e23;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px #c42d1a;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #ff5722;
+    box-shadow: 0 5px #c42d1a;
+    transform: translateY(-2px);
+}
+
+button:active {
+    box-shadow: 0 2px #c42d1a;
+    transform: translateY(2px);
+}

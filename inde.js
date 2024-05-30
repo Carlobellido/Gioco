@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     confirmBtn.addEventListener('click', () => {
         if (selectedCharacter) {
             alert(`You have selected: ${selectedCharacter}`);
+            window.location.href = 'Start.html';
         } else {
             alert('No character selected');
         }
