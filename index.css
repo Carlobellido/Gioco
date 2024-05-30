@@ -1,0 +1,129 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: content-box;
+    background-image: url('./super-smash-bros-ultimate-floating-battlefield-3vz8290nfaht3me6.jpg');
+    background-size: cover;
+}
+.title {
+    z-index: 2;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    border:2px solid floralwhite;
+    padding: 5px;
+    border-radius: 50px;
+    font-style: italic;
+    background-color: rgb(112, 112, 112);
+
+}
+.container {
+    max-width: 90%;
+    max-width: 90%;
+    text-align: center;
+    margin-bottom: 100px;
+
+    
+    
+}
+
+.character-grid-container {
+    
+    display: grid; /* or flex, depending on your layout */
+    grid-gap: 10px;
+    border: 2px solid black;
+
+}
+
+.character-grid {
+    display: inline-flex;
+    gap: 10px;
+    border: 2px solid black;
+    background-image: url('./vesna-sad-anime.webp');
+    background-size: contain;
+}
+
+.character {
+    border: 2px solid transparent;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.character img {
+    width: 226px;
+    height: 503px;
+    border-radius: 10px;
+    box-sizing:content-box;
+    
+}
+
+.character.selected {
+    color: black;
+  background: transparent;
+  z-index: 1;
+  position: relative;
+  transform: matrix(1.1, 0, 0, 1.2, 0, 0);
+
+}
+
+button {
+    text-align: center;
+    font-weight: bold;
+    background-color: lightgray;
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: gray;
+    -webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+    box-shadow: 0 .2em gray; 
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 20px;
+    z-index: 2;
+
+}
+button:hover {
+    background-color: gray;
+    color: lightgray;
+    box-shadow: 0 .2em black; 
+    transform: matrix(1.1, 0, 0, 1.2, 0, 0);
+}
+
+#selected-character {
+    z-index: 2;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    border:2px solid floralwhite;
+    padding: 5px;
+    border-radius: 50px;
+    font-style: italic;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    position: absolute;
+    display: block;
+    background: linear-gradient(40deg, black 11ch, rgb(122, 120, 120) 11ch)
+
+}
+
+
+
