@@ -10,7 +10,7 @@ body {
     padding: 0;
     overflow-x: hidden;
     box-sizing: content-box;
-    background-image: url('./super-smash-bros-ultimate-floating-battlefield-3vz8290nfaht3me6.jpg');
+    background-image: url('./assets/super-smash-bros-ultimate-floating-battlefield-3vz8290nfaht3me6.jpg');
     background-size: cover;
 }
 .title {
@@ -48,7 +48,7 @@ body {
     display: inline-flex;
     gap: 10px;
     border: 2px solid black;
-    background-image: url('./vesna-sad-anime.webp');
+    background-image: url('./assets/vesna-sad-anime.webp');
     background-size: contain;
 }
 
